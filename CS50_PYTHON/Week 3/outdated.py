@@ -52,4 +52,5 @@ def dateOut(dateList, month):
         dateList[0] = month.index(dateList[0]) + 1
     print(f"{dateList[2]}-{int(dateList[0]):02}-{int(dateList[1]):02}")
 
-main()
+if __name__=="__main__":
+    main()
